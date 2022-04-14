@@ -1,0 +1,237 @@
+// vars
+$textColor: #929598;
+$lightText: #fff;
+$primary: #ff6e30;
+$bg: #1e252b;
+$hlText: #ffa537;
+
+// container
+$containerWidth: 1576px;
+$containerPadding: 25px;
+
+// font
+$defaultFontSize: 16px;
+$base-font-family: "Poppins";
+
+//breakpoints
+$md1: 992px;
+$md2: 768px;
+$md3: 578px;
+$md4: 425px;
+$md5: 375px;
+$md6: 320px;
+
+// global styles
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+.container {
+  max-width: 100%;
+  padding: 0 $containerPadding;
+  margin: 0 auto;
+}
+html {
+  font-size: $defaultFontSize;
+}
+
+body {
+  font-size: 1rem;
+  font-family: $base-font-family, sans-serif;
+  font-weight: 300;
+  line-height: 1.35;
+  color: $textColor;
+  background: $bg;
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  display: block;
+}
+
+div {
+  display: inline-block;
+}
+
+.btns,
+.progs {
+  display: flex;
+}
+
+.main {
+  max-width: 100%;
+}
+
+.pop-tools {
+  align-items: center;
+  text-align: center;
+  h2 {
+    color: #fff;
+    opacity: 90%;
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-bottom: 25px;
+  }
+  .subtitle {
+    margin-bottom: 90px;
+    font-size: 18px;
+  }
+  .progs {
+    p {
+      margin-top: 39px;
+    }
+  }
+  .pop-img {
+    margin: 39px 36px;
+  }
+  .pop-text {
+    margin: 0 33px 42px 33px;
+  }
+  .prog-list {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 392px 392px 392px;
+    gap: 24px;
+  }
+  .prog-item {
+    margin-bottom: 100px;
+    height: 294px;
+    span {
+      color: $hlText;
+    }
+    .like {
+      margin-left: 41px;
+      margin-right: 20px;
+      &:hover {
+        img {
+          fill: #fd3b41;
+        }
+      }
+    }
+    .file {
+      margin-right: 167px;
+    }
+    .visit {
+      width: 106px;
+      height: 42px;
+      background: transparent;
+      border: none;
+      font-size: 16px;
+      color: #fff;
+      opacity: 55%;
+      border-radius: 8px;
+    }
+    &:hover {
+      .visit {
+        opacity: 100%;
+        background-color: #ff6e30;
+      }
+    }
+  }
+  .pop-btn {
+    height: 64px;
+    width: 184px;
+    color: #ff6e30;
+    font-size: 20px;
+    margin-bottom: 200px;
+    background: none;
+    border: 1px solid rgb(73, 70, 70);
+    border-radius: 8px;
+  }
+}
+
+.newcommer {
+  h2 {
+    margin-left: 108px;
+    color: #fff;
+    opacity: 90%;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  .subtitle {
+    width: 427px;
+    height: 90px;
+    margin-left: 108px;
+    font-size: 18px;
+  }
+  .newcom-btn {
+    border: none;
+    margin-left: 108px;
+    width: 198px;
+    height: 58px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #ff6e30;
+    margin-top: 60px;
+  }
+  .progs {
+    p {
+      margin-top: 39px;
+    }
+  }
+  .newcommer-img {
+    margin: 29px 30px 34px 26px;
+  }
+  .new-text {
+    margin-left: 22px;
+    margin-bottom: 30px;
+    margin-right: 21px;
+  }
+  .prog-list {
+    margin-left: 220px;
+    margin-right: 108px;
+    display: grid;
+    grid-template-columns: 284px 284px;
+    gap: 24px;
+  }
+  .prog-item {
+    margin-bottom: 50px;
+    height: 288px;
+    span {
+      color: $hlText;
+    }
+    .like {
+      margin-left: 30px;
+      margin-right: 29px;
+    }
+    .file {
+      margin-right: 86px;
+    }
+    .visit {
+      width: 106px;
+      height: 42px;
+      background: transparent;
+      border: none;
+      font-size: 16px;
+      color: #fff;
+      opacity: 55%;
+      border-radius: 8px;
+    }
+    &:hover {
+      .visit {
+        opacity: 100%;
+        background-color: #ff6e30;
+      }
+    }
+  }
+}

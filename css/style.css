@@ -1,0 +1,239 @@
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 25px;
+  margin: 0 auto;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  line-height: 1.35;
+  color: #929598;
+  background: #1e252b;
+}
+
+body.no-scroll {
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  display: block;
+}
+
+div {
+  display: inline-block;
+}
+
+.btns,
+.progs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main {
+  max-width: 100%;
+}
+
+.pop-tools {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.pop-tools h2 {
+  color: #fff;
+  opacity: 90%;
+  font-size: 48px;
+  font-weight: 500;
+  margin-top: 200px;
+  margin-bottom: 25px;
+}
+
+.pop-tools .subtitle {
+  margin-bottom: 90px;
+  font-size: 18px;
+}
+
+.pop-tools .progs p {
+  margin-top: 39px;
+}
+
+.pop-tools .pop-img {
+  margin: 39px 36px;
+}
+
+.pop-tools .pop-text {
+  margin: 0 33px 42px 33px;
+}
+
+.pop-tools .prog-list {
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 392px 392px 392px;
+      grid-template-columns: 392px 392px 392px;
+  gap: 24px;
+}
+
+.pop-tools .prog-item {
+  margin-bottom: 100px;
+  height: 294px;
+}
+
+.pop-tools .prog-item span {
+  color: #ffa537;
+}
+
+.pop-tools .prog-item .like {
+  margin-left: 41px;
+  margin-right: 20px;
+}
+
+.pop-tools .prog-item .like:hover img {
+  fill: #fd3b41;
+}
+
+.pop-tools .prog-item .file {
+  margin-right: 167px;
+}
+
+.pop-tools .prog-item .visit {
+  width: 106px;
+  height: 42px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  opacity: 55%;
+  border-radius: 8px;
+}
+
+.pop-tools .prog-item:hover .visit {
+  opacity: 100%;
+  background-color: #ff6e30;
+}
+
+.pop-tools .pop-btn {
+  height: 64px;
+  width: 184px;
+  color: #ff6e30;
+  font-size: 20px;
+  margin-bottom: 200px;
+  background: none;
+  border: 1px solid #494646;
+  border-radius: 8px;
+}
+
+.newcommer h2 {
+  margin-left: 108px;
+  color: #fff;
+  opacity: 90%;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.newcommer .subtitle {
+  width: 427px;
+  height: 90px;
+  margin-left: 108px;
+  font-size: 18px;
+}
+
+.newcommer .newcom-btn {
+  border: none;
+  margin-left: 108px;
+  width: 198px;
+  height: 58px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: #ff6e30;
+  margin-top: 60px;
+}
+
+.newcommer .progs p {
+  margin-top: 39px;
+}
+
+.newcommer .newcommer-img {
+  margin: 29px 30px 34px 26px;
+}
+
+.newcommer .new-text {
+  margin-left: 22px;
+  margin-bottom: 30px;
+  margin-right: 21px;
+}
+
+.newcommer .prog-list {
+  margin-left: 220px;
+  margin-right: 108px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 284px 284px;
+      grid-template-columns: 284px 284px;
+  gap: 24px;
+}
+
+.newcommer .prog-item {
+  margin-bottom: 50px;
+  height: 288px;
+}
+
+.newcommer .prog-item span {
+  color: #ffa537;
+}
+
+.newcommer .prog-item .like {
+  margin-left: 30px;
+  margin-right: 29px;
+}
+
+.newcommer .prog-item .file {
+  margin-right: 86px;
+}
+
+.newcommer .prog-item .visit {
+  width: 106px;
+  height: 42px;
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+  opacity: 55%;
+  border-radius: 8px;
+}
+
+.newcommer .prog-item:hover .visit {
+  opacity: 100%;
+  background-color: #ff6e30;
+}
